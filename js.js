@@ -140,10 +140,9 @@ var md = new MobileDetect(window.navigator.userAgent);
 function redirectToApp() {
   var currentUrl = window.location.href; 
   if (md.is("iPhone") || md.is("iPad") || md.is("iPod")) {
-    window.location.href = "https://aleksandrajankovic.github.io/meridianbet-mobilna-aplikacija-br/";
   } else if (md.is("AndroidOS")) {
     window.location.href =
-      "https://coupons.joker.co.rs/~android/magicbet/app-magicbet777-release.apk";
+      "https://coupons.joker.co.rs/~android/pe/app-pe-release.apk";
   } else {
   
     currentUrl;
