@@ -139,8 +139,7 @@ var md = new MobileDetect(window.navigator.userAgent);
 
 function redirectToApp() {
   var currentUrl = window.location.href; 
-  if (md.is("iPhone") || md.is("iPad") || md.is("iPod")) {
-  } else if (md.is("AndroidOS")) {
+ if (md.is("AndroidOS")) {
     window.location.href =
       "https://coupons.joker.co.rs/~android/pe/app-pe-release.apk";
   } else {
