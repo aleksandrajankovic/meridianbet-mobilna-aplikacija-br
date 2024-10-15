@@ -141,7 +141,7 @@ function redirectToApp() {
   var currentUrl = window.location.href; 
  if (md.is("AndroidOS")) {
     window.location.href =
-      "https://coupons.joker.co.rs/~android/pe/app-pe-release.apk";
+      "https://coupons.joker.co.rs/~android/br/app-br-release.apk";
   } else {
   
     currentUrl;
